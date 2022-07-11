@@ -7,6 +7,6 @@ Download the Models.zip from drive  -->
 Unzip to models/
 
 Download the NPY from drive  --->
-Unzip to npys/
+Move to npys/
 
 Run Requirements.txt
