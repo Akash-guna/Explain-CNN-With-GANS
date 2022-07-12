@@ -24,7 +24,7 @@ gen=DataGen(16,inp_images_train,cgms_train,out_images_train)
 os.makedirs(f'Outputs/{folder}/gan')
 os.makedirs(f'Outputs/{folder}/ori')
 os.makedirs(f'Outputs/{folder}/inputs')
-for j in range(25):
+for j in range(3):
     inp_batch,cgm_batch,out_batch,out_batch_2,y_real = gen.real_batch()
     _,gen_data = gan_model.predict_on_batch([inp_batch,cgm_batch,out_batch])
     gen.update_batch()

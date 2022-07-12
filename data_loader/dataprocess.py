@@ -1,13 +1,14 @@
 import numpy as np
 import os
+import glob
 import cv2
 import tensorflow as tf
 
 def load_all_data():
     np.random.seed(7)
-    files = os.listdir('npys')
+    files = glob.glob('npys/*.npy')
     print(files)
-    data=np.concatenate([np.load(f'npys/{i}',allow_pickle=True)[:5000]for i in files])
+    data=np.concatenate([np.load(i,allow_pickle=True)[:5000]for i in files])
     np.random.shuffle(data)
     l= data.shape[0]
     split=int(np.floor(0.1*l))

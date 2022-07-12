@@ -1,6 +1,7 @@
-from local_condition_sft import create_local_sft
-from discriminator import create_discriminator
-import tensorlfow as tf
+
+from .local_condition_sft import create_local_sft
+from .discriminator import create_discriminator
+import tensorflow as tf
 from tensorflow.keras.optimizers import Adam
 def generator():
     gen = create_local_sft(input_shape1 =(64,64,3), input_shape2=(64,64,8),batch_size=16,n_conds=8)
