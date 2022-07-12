@@ -1,4 +1,4 @@
 *.npy 
 *.zip
 models/
-outputs/
+Outputs/
