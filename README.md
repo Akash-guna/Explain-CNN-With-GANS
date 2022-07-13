@@ -10,3 +10,6 @@ Download the NPY from drive  --->
 Move to npys/
 
 Run Requirements.txt
+
+To generate LSFT Inference Use : lsft_inference.py
+To generate GST Inference Use : gsft_inferencce.py
