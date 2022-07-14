@@ -6,6 +6,10 @@ The Paper introduced a method to interpret why a CNN makes its predictions by tr
 * Introduced a method to represent CNN's operations as conditional priors.
 * Introduced a method to interpret our proposed GAN.
 
+## Proposed Model Architectures
+<img src = "assets/model_architecture_cropped.png">
+
+
 ## Inference
 Here me mention how to use this repository for Infererence. We provide a pretrained gan model trained on classifiction models to explain Animals-10, Food-11 and CIFAR-10 Datasets. We provide the pretrained model for both LSFT-GAN and GSFT-GAN. We provide a preprocessed .npy file of Food-11 dataset to use for Inference. Please follow the below steps for  Inference:
 ### Step-1 
