@@ -16,7 +16,7 @@ LSFT-GAN and GSFT_GAN are the two varients of the Proposed GAN architecture. The
 ## Results
 
 ### Sample Results
-<img src = "assets/sample_figure.png">
+<img src = "assets/sample_figure.png" width="250" height="200">
 The Figure shows sample results on interpreting CNNs trained fro Classifying Food-11 and Animals-10 Dataset.
 
 ### Interpreting Our Proposed LSFT-GAN
