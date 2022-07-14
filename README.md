@@ -22,6 +22,7 @@ The Figure shows sample results on interpreting CNNs trained fro Classifying Foo
 ### Interpreting Our Proposed LSFT-GAN
 <img src = "assets/Individual_interpretations.png">
 We interpreted how our GAN interpreted CNNs based on the relevance of the Input Conditions.
+
 ## Inference
 Here me mention how to use this repository for Infererence. We provide a pretrained gan model trained on classifiction models to explain Animals-10, Food-11 and CIFAR-10 Datasets. We provide the pretrained model for both LSFT-GAN and GSFT-GAN. We provide a preprocessed .npy file of Food-11 dataset to use for Inference. Please follow the below steps for  Inference:
 ### Step-1 
