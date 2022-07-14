@@ -6,10 +6,22 @@ The Paper introduced a method to interpret why a CNN makes its predictions by tr
 * Introduced a method to represent CNN's operations as conditional priors.
 * Introduced a method to interpret our proposed GAN.
 
-## Proposed Model Architectures
+## Generic Architecture
 <img src = "assets/model_architecture_cropped.png">
+The Generic Architecture of the proposed GAN. It takes CNN representations and Input Image to produce interpretation of CNN's predictions for the input image.
 
+## LSFT-GAN and GSFT-GAN:
+LSFT-GAN and GSFT_GAN are the two varients of the Proposed GAN architecture. They differe by thier conditioning methodologies. GSFT(Global-SFT) conditions the GAN using a Global Condition and LSFT(Local-SFT) conditions the GAN progressively.
 
+## Results
+
+### Sample Results
+<img src = "assets/sample_figure.png">
+The Figure shows sample results on interpreting CNNs trained fro Classifying Food-11 and Animals-10 Dataset.
+
+### Interpreting Our Proposed LSFT-GAN
+<img src = "assets/Individual_interpretations.png">
+We interpreted how our GAN interpreted CNNs based on the relevance of the Input Conditions.
 ## Inference
 Here me mention how to use this repository for Infererence. We provide a pretrained gan model trained on classifiction models to explain Animals-10, Food-11 and CIFAR-10 Datasets. We provide the pretrained model for both LSFT-GAN and GSFT-GAN. We provide a preprocessed .npy file of Food-11 dataset to use for Inference. Please follow the below steps for  Inference:
 ### Step-1 
