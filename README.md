@@ -25,7 +25,14 @@ pip install -r requirements.txt
 ~~~
 ### Step -5
 To Run Inference on LSFT-GAN run
-~~~python lsft_inference.py~~~
- 
-To generate LSFT Inference Use : lsft_inference.py
-To generate GST Inference Use : gsft_inference.py
+~~~
+python lsft_inference.py
+~~~
+
+To Run Inference on GSFT-GAN run
+~~~
+python gsft_inference.py
+~~~
+### Step -6
+Open outputs/ to find the folder with the inferences.
+The inference folder contains three sub floders inputs , Gan outputs and GradCAM outputs.
